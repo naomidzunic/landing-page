@@ -1,0 +1,182 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGATION */
+
+#navigation {
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    min-height: 8vh;
+}
+
+.logo {
+    text-transform: uppercase;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+/* HEADER */
+
+#header {
+    background-color: gray;
+    color: white;
+    height: 85vh;
+    padding-top: 6%;
+}
+
+.header-text {
+    display: inline-block;
+    padding-left: 17%;
+    padding-top: 13%;
+    width: 35%;
+}
+
+.title {
+    font-size: 4rem;
+    margin-top: auto;
+}
+
+.header-btn {
+    border-radius: 4px;
+    box-shadow: none;
+    margin-top: 2%;
+    padding: 15px 30px 15px;
+}
+
+.header-img {
+    display: inline-block;
+    height: 400px;
+    margin-right: 5px;
+    width: 600px;
+}
+
+/* PRICING */
+
+#pricings {
+    background-color: black;
+    color: white;
+    height: 97vh;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.inner {
+    margin: auto;
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.building-img {
+    height: 400px;
+    width: 300px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    box-sizing: border-box;
+    flex: 33%;
+    max-width: 25%;
+    padding: 15px;
+}
+
+.pricing {
+    padding: 30px;
+}
+
+/* TESTIMONIAL */
+
+#testimonial {
+    background-color: gray;
+    color: white;
+    height: 70vh;
+    padding-top: 7%;
+}
+
+.testimonial-content {
+    align-items: center;
+    display: flex;
+    font-size: 36px;
+    height: 50vh;
+    margin: auto;
+    max-width: 900px;
+    text-transform: none;
+}
+
+.name {
+    display: flex;
+    font-size: 25px;
+    justify-content: right;
+    margin: auto;
+    max-width: 900px;
+}
+
+/* CALL TO ACTION */
+
+#cta {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 35vh;
+    justify-content: center;
+    padding: 3%;
+}
+
+.cta-container {
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+    padding: 32px 37px 32px;
+}
+
+.cta-btn {
+    background-color: white;
+    flex-shrink: 0;
+    height: 30px;
+    margin: 40px 60px 40px;
+    text-transform: uppercase;
+    width: 128px;
+}
+
+.cta-btn:hover {
+    background-color: gray;
+    border-color: black;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: white;
+    color: black;
+    height: 10px;
+    text-align: center;
+    padding: 2%;
+}
+
+.footer-txt p {
+    margin: 0;
+}
